@@ -1,0 +1,49 @@
+.container1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.container3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.container4 {
+  width: 300px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.container5 {
+  width: 300px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+div.green {
+  width: 150px;
+  height: 150px;
+  background: #51d400;
+}
+
+div.yellow {
+  width: 150px;
+  height: 150px;
+  background: #ffd62a;
+}
+
+div.purple {
+  width: 150px;
+  height: 150px;
+  background: #b02afe;
+}
